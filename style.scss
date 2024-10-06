@@ -1,0 +1,57 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.form-control {
+    max-width: 300px;
+
+}
+
+
+
+
+main {
+    min-height: 100vh;
+    min-width: 100%;
+    background-color: white;
+    color: dodgerblue;
+    font-size: 1rem;
+    display: grid;
+    place-items: center;
+    
+    section {
+        min-height: 200px;
+        max-width: 60rem;
+        padding: 2rem 3rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+        background-color: white;
+        border-radius: 10px;
+
+        h1 {
+            font-size: clamp(1.5rem, 2vw, 2rem);
+            padding: 10px 0;
+        }
+
+        img {
+            max-height: 200px;
+            max-width: 200px;
+            box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+            margin: 15px 0;
+            display: none;
+        }
+        .show {
+            display: block;
+        }
+    
+
+    }
+
+}
+
+
